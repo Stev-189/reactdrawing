@@ -12,7 +12,7 @@ static defaultProps = {
     gridColor: "rgba(150,150,150,0.17)",
     hideGrid: false,//esconder rejilla
     canvasWidth: 400, //ancho
-    canvasHeight: 400, //alto
+    canvasHeight: 400, //alto 
     disabled: false, //para que no dibujen solo se vea
     imgSrc: "",
     saveData: null,
