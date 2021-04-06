@@ -1,0 +1,21 @@
+npx create-react-app drawingapp
+npm install react-canvas-draw --save
+
+//Propiedades de react camvas draw
+static defaultProps = {
+    onChange: null
+    loadTimeOffset: 5,
+    lazyRadius: 30,
+    brushRadius: 12,//grosor
+    brushColor: "#444",//color
+    catenaryColor: "#0a0302", //color lapiz
+    gridColor: "rgba(150,150,150,0.17)",
+    hideGrid: false,//esconder rejilla
+    canvasWidth: 400, //ancho
+    canvasHeight: 400, //alto
+    disabled: false, //para que no dibujen solo se vea
+    imgSrc: "",
+    saveData: null,
+    immediateLoading: false,
+    hideInterface: false
+  };
